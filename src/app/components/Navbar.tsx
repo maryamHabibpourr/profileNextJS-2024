@@ -5,8 +5,8 @@ import { useState } from "react";
 import Link from "next/link"
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { navigation } from "../constants";
-import { HamburgerMenu } from "./design/Header";
 import MenuSvg from "../assets/svg/MenuSvg";
+import HamburgerMenu from "./design/Header";
 
 
 

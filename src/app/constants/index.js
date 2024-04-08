@@ -2,12 +2,12 @@ export const navigation = [
     {
       id: "0",
       title: "Blogs",
-      url: "#blogs",
+      url: "/posts",
     },
     {
       id: "1",
       title: "Projects",
-      url: "#projects",
+      url: "/projects",
     },
     {
       id: "2",
