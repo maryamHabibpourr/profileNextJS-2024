@@ -102,32 +102,79 @@
 
 
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
+.blue-text-gradient {
+  background: #56ccf2;
+  background: -webkit-linear-gradient(
+    to top,
+    #2f80ed,
+    #56ccf2
+  ); 
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    to top,
+    #2f80ed,
+    #56ccf2
+  )
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.orange-text-gradient {
+  background: #f12711; 
+  background: -webkit-linear-gradient(
+    to top,
+    #f12711,
+    #f5af19
+  ); 
+  background: linear-gradient(
+    to top,
+    #f12711,
+    #f5af19
+  )
+}
+
+
+
+.pink-text-gradient {
+  background: #ec008c; 
+  background: -webkit-linear-gradient(
+    to top,
+    #ec008c,
+    #fc6767
+  );
+  background: linear-gradient(
+    to top,
+    #ec008c,
+    #fc6767
+  )
+
+}
+
+.green-text-gradient {
+  background: #11998e; 
+  background: -webkit-linear-gradient(
+    to top,
+    #11998e,
+    #38ef7d
+  );
+  background: linear-gradient(
+    to top,
+    #11998e,
+    #38ef7d
+  )
+}
+
+.ax-design{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border:20px solid rgba(255, 255, 255, 0.6) !important;
+}
+@media (max-width:700px) {
+  .ax-design{
+    width: 200px;
+    height: 200px;
+    border:10px solid rgba(255, 255, 255, 0.6) !important;
   }
-} */
+}
+
+
+
+
