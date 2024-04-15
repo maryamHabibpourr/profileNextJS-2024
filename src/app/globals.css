@@ -8,7 +8,8 @@
   --font-grotesk: "Space Grotesk", sans-serif;
   color-scheme: dark;
   --color-primary: #dcff50;
-  --color-secondary: #7b61ff;
+  /* --color-secondary: #7b61ff; */
+  --color-secondary:  #AC6AFF;
   --color-heading: #f5f5f7;
   --color-text: rgba(255, 255, 255, 0.6);
   --color-background: #090909;
@@ -117,11 +118,4 @@
   height: 150px;
   border-radius: 50%;
   border: 5px solid rgba(255, 255, 255, 0.6) !important;
-}
-@media (max-width: 700px) {
-  .ax-design {
-    width: 200px;
-    height: 200px;
-    border: 10px solid rgba(255, 255, 255, 0.6) !important;
-  }
 }
