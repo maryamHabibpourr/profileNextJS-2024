@@ -22,8 +22,8 @@ import himalia from "../assets/company/himalia.png"
 export const navigation = [
   {
     id: "0",
-    title: "Home",
-    url: "/",
+    title: "Blogs",
+    url: "/posts",
    
   },
   {
@@ -33,8 +33,8 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "Blogs",
-    url: "/posts",
+    title: "Home",
+    url: "/",
   },
 
 ];

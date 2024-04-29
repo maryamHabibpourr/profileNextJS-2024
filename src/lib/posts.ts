@@ -22,7 +22,7 @@ export async function getPostByName(fileName: string): Promise<BlogPost | undefi
     const res = await fetch(`https://raw.githubusercontent.com/maryamHabibpourr/blogPost/main/${fileName}`, {
         headers: {
             Accept: 'application/vnd.github+json',
-            Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+            Authorization: `Bearer ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
             'X-GitHub-Api-Version': '2022-11-28',
         }
     })
@@ -68,7 +68,7 @@ export async function getPostsMeta(): Promise<Meta[] | undefined> {
     const res = await fetch('https://api.github.com/repos/maryamHabibpourr/blogPost/git/trees/main?recursive=1', {
         headers: {
             Accept: 'application/vnd.github+json',
-            Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+            Authorization: `Bearer ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
             'X-GitHub-Api-Version': '2022-11-28',
         }
     })
